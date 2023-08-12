@@ -16,22 +16,22 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path:'/index',
+      path:'/',
       name:'home',
       component:Index,
       children : [
         {
-          path:'/index',
+          path:'/',
           name:'indexhome',
           component:IndexHome,
         },
         {
-          path:'/index/signin',
+          path:'/signup',
           name:'sign',
           component:SignUp,
         },
         {
-          path:'/index/login',
+          path:'/login',
           name:'login',
           component:LogIn,
         }

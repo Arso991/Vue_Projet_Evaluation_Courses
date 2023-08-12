@@ -8,8 +8,8 @@
                     </div>
                 </div>
                 <ul class="header__content__left">
-                    <li><a href="/index/signin">Inscription</a></li>
-                    <li><a href="/index/login">Connexion</a></li>
+                    <li><a href="/signup">Inscription</a></li>
+                    <li><a href="/login">Connexion</a></li>
                 </ul>
             </div>
         </div>

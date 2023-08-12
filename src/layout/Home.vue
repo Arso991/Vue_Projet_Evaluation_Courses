@@ -73,23 +73,38 @@ onMounted(async ()=>{
 }
 
 .banner__content__top__item h1 {
-    color: white;
+    padding: .5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: white;
 }
 
 .color__blue {
     background-color: rgb(81, 81, 244);
 }
+.color__blue h1{
+    color: rgb(81, 81, 244);
+}
 
 .color__blue__white {
     background-color: rgb(151, 189, 250);
 }
-
+.color__blue__white h1{
+    color: rgb(151, 189, 250);
+}
 .color__red {
     background-color: rgb(245, 68, 68);
+}
+.color__red h1{
+    color: rgb(245, 68, 68);   
 }
 
 .color__gold {
     background-color: rgb(249, 220, 54);
+}
+.color__gold h1{
+    color: rgb(249, 220, 54);
 }
 .banner__bottom{
     width: 100%;

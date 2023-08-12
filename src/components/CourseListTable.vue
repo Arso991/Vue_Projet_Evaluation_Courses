@@ -95,9 +95,6 @@ function deleteBtn(element:Course){
     
 }
 
-
-
-
 </script>
 
 <style scoped>
@@ -129,7 +126,7 @@ table tr:nth-child(even) .last_td button{
 }
 
 .star {
-    width: .5rem;
+    width: 1rem;
     cursor: pointer;
 }
 
