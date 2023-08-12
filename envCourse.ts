@@ -1,0 +1,2 @@
+export const SUPABASEURL = 'https://ndagjcrudfpkizkghgbm.supabase.co'
+export const SUPABASEKEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kYWdqY3J1ZGZwa2l6a2doZ2JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTE1Njg1ODYsImV4cCI6MjAwNzE0NDU4Nn0.G2b-1Am2T5eUGiKxD8dE9bH5FXVLrknBFv-XhG_kmZI'
