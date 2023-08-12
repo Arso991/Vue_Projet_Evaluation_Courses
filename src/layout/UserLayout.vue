@@ -3,8 +3,11 @@
         <SideBar/>
         <main>
             <NavBar/>
+            <div class="container">
+                
 
-            <RouterView/>
+                <RouterView/>
+            </div>
         </main>
     </div>
 </template>
@@ -26,6 +29,10 @@ a{
 }
 main{
     width: calc(100% - 15rem);
+}
+.container{
+    padding: 0 2rem;
+    margin: 0 auto;
 }
 
 .router-link-exact-active{

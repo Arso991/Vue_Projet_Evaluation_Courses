@@ -58,12 +58,20 @@ onMounted(async () => {
 
 defineProps(['course'])
 
-function importantCourse(element: Course) {
+function importantCourse(element:Course) {
+
+    async function updateCourse() {      
+        const { error } = await supabase
+        .from('Courses')
+        .update({ is_important : !element.is_important })
+        .eq('idCourse', element.idCourse)
+    }
+    updateCourse()
     element.is_important = !element.is_important
 }
 
 function change(element:Course){
-    console.log(element.idCourse);
+    
     async function updateCourse() {
         const { error } = await supabase
         .from('Courses')
@@ -74,15 +82,16 @@ function change(element:Course){
     updateCourse()
 }
 
-function deleteBtn(element){
+function deleteBtn(element:Course){
     
-    
-    
-   /* async function deleteCourse(){
-    const { error } = await supabase.from('Courses').delete().eq('idCourse', 2)
+   async function deleteCourse(){
+    const { error } = await supabase
+    .from('Courses')
+    .delete()
+    .eq('idCourse', element.idCourse)
    } 
 
-   deleteCourse() */ 
+   /* deleteCourse() */
     
 }
 
@@ -91,7 +100,7 @@ function deleteBtn(element){
 
 </script>
 
-<style>
+<style scoped>
 table th,
 table td{
     padding: .5rem 1rem;
@@ -142,4 +151,5 @@ table tr:nth-child(even) .last_td button{
     padding: .1rem;
     color: #e7c57d;
     font-size: 2rem;
-}</style>
+}
+</style>
