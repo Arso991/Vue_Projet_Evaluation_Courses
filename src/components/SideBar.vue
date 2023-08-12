@@ -26,6 +26,11 @@
   </div>
 </template>
 
+<script setup lang="ts">
+import { RouterLink } from 'vue-router';
+
+</script>
+
 <style scoped>
 ul li {
   list-style: none;
@@ -33,11 +38,11 @@ ul li {
   box-sizing: border-box;
 }
 
-a {
+/* a {
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
-}
+} */
 .aside {
   display: flex;
   flex-direction: column;
@@ -63,5 +68,9 @@ a {
   padding: 0.5rem;
   font-size: 1.2rem;
   color: #fff;
+}
+.router-link-exact-active{
+    background-color: #e7c57d;
+    border-radius: 5px;
 }
 </style>

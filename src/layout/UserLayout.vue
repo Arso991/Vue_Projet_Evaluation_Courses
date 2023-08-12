@@ -34,8 +34,4 @@ main{
     padding: 0 2rem;
     margin: 0 auto;
 }
-
-.router-link-exact-active{
-    color: #e7c57d;
-}
 </style>

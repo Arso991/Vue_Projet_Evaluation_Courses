@@ -25,14 +25,18 @@
     </div>
     <div class="banner__bottom">
         <div class="banner__bottom__left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus exercitationem ut accusamus placeat numquam. Nesciunt, obcaecati! Labore quo aspernatur molestiae autem! Rem dicta, nulla aut qui id laboriosam! Voluptatibus.
+            <div class="banner__bottom__left__img">
+                <img src="../../public/order.jpg" alt="">
+            </div>
         </div>
         <div class="banner__bottom__right">
             <div class="banner__bottom__right__top">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat reiciendis totam commodi dolorum ex, molestias tenetur accusantium eveniet hic expedita nihil nisi repellat accusamus assumenda inventore atque placeat error molestiae.
+                <div class="banner__bottom__right__top__img">
+                    <img src="../../public/deliver.png" alt="">
+                </div>
             </div>
             <div class="banner__bottom__right__bottom">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat reiciendis totam commodi dolorum ex, molestias tenetur accusantium eveniet hic expedita nihil nisi repellat accusamus assumenda inventore atque placeat error molestiae.
+            
             </div>
         </div>
         
@@ -52,6 +56,7 @@ onMounted(async ()=>{
     await initialiseCompleted()
     await initialiseImportant()
 })
+
 </script>
 
 <style scoped>
@@ -113,9 +118,13 @@ onMounted(async ()=>{
     justify-content: space-between;
 }
 .banner__bottom__left{
-    background-color: rgb(246, 244, 244);
     width: calc(100% - 35rem);
     height: 22rem;
+    display: flex;
+    justify-content: center;
+}
+.banner__bottom__left__img{
+    width: 18rem;
 }
 .banner__bottom__right{
     width: 30rem;
@@ -125,10 +134,14 @@ onMounted(async ()=>{
 }
 .banner__bottom__right__top,
 .banner__bottom__right__bottom{
-    background-color: rgb(246, 244, 244);
-    height: 10rem
+    height: 10rem;
+    display: flex;
+    justify-content: center;
 }
-.banner__bottom__right__bottom{
-    background-color: rgb(246, 244, 244);
+.banner__bottom__right__top__img{
+    width: 20rem;
 }
+/* .banner__bottom__right__bottom{
+    
+} */
 </style>

@@ -5,7 +5,7 @@
             <input type="text" placeholder="Titre" v-model="courseData.title">
             <input type="text" placeholder="Nom du Client" v-model="courseData.client_name">
             <input type="text" placeholder="Adresse de livraison" v-model="courseData.localisation">
-            <textarea rows="4" placeholder="Description ou articles à livrer" v-model="courseData.description"></textarea>
+            <textarea rows="4" placeholder="Description de la livraison" v-model="courseData.description"></textarea>
             <button type="submit">&plus;</button>
         </form>
     </div>

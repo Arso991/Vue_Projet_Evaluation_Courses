@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { supabase } from "@/lib/supabase";
-import { computed, ref } from "vue";
+import { computed, defineComponent, ref } from "vue";
 import type { Course } from "@/types/courses";
 
 
