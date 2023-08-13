@@ -12,7 +12,7 @@
                         deserunt
                         iure corrupti modi, earum soluta reiciendis, distinctio similique quibusdam quidem iusto
                         numquam
-                        vero omnis? Illum?</p>
+                        vero omnis? Illuum?</p>
                 </div>
                 <div class="banner__content__right">
                     <img src="../assets/list_img.png" alt="">
