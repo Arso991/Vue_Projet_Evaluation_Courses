@@ -1,7 +1,7 @@
 <template>
     <nav class="header">
         <div class="header__content">
-            <p class="header__content__left">Bienvenue </p>
+            <p class="header__content__left">Bienvenue  </p>
             <p class="header__content__right"><button @click="signOut">Deconnexion</button></p>
         </div>
     </nav>
@@ -59,4 +59,4 @@ async function signOut() {
     border: none;
     cursor: pointer;
 }
-</style>@/lib/supabase
+</style>

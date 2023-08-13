@@ -30,5 +30,5 @@ export const useUsersStore = defineStore("courses", () => {
 
    
 
-    /* return {users, user, initialise, initialiseUser, addUsers} */
+    return {users, user, initialise, initialiseUser, addUsers}
 })
