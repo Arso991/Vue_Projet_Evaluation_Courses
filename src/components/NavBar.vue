@@ -22,7 +22,7 @@ const router = useRouter()
 
 /* onMounted(() =>{
     initialiseUser()
-}) */
+})  */
 
 async function signOut() {
     const { error } = await supabase.auth.signOut()
